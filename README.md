@@ -1,19 +1,7 @@
-# vue3-todolist
+# 组件 -> commit-> mutation state -> 视图变更 -> 响应式
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 组件 -> dispatch -> action
+2. dispatch -> type(actionType) -> 某一个 action 
+3. action -> commit 调用 -> mutation 
+4. mutation -> change -> state
+5. render 方案：state
